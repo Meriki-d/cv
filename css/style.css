@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	text-align: center;  
+	font-family: cursive;
+	font-size: 1.2rem;
+}
+
+p{
+	line-height: 2;
+}
+hr{
+	border-style: none;
+	border-top-style:dotted;
+	border-width:10px;
+	border-color: grey;
+	width: 5%;
+	padding: 50px;
+}
+h3{
+	color:#65c6c4; 
+	padding: 10px;
+}
+h2{
+	color: #2b3595;
+	padding: 10px;
+}
+
+
+
+
+
+
+#title{
+	margin: 50px auto 0 auto;
+	color: #66BFBF;
+	font-family: 'Sacramento', cursive;
+	font-size: 6rem;
+}
+#motto{
+	font-size: 2rem;
+	margin top:0;
+	font-family: 'Charmonman', cursive;
+	font-size: 2.5rem;
+	color: #66BFBF;
+	font-weight: normal;
+}
+
+.top_container{
+	
+	padding-top: 100px;
+	position: relative;
+	background-color: #E4F9F5;
+
+}
+.mid_container{
+	
+}
+.bottom_container{
+	
+}
+.top_cloud{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	right:300px;
+	top:20px;
+}
+.bottom_cloud{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 300px;
+	bottom:310px;
+}
+.skillimg{
+	height: 200px;
+	width: 25%;
+	float: left;
+	margin: 30px;
+}
+.cookimg{
+	height: 200px;
+	width: 25%;
+	float: right;
+	margin: 30px;
+}
+
+.btn{
+	height: 50px;
+	width: 50px;
+}
+.footerlink{
+	height: 50px;
+	width: 50px;
+}
+
+.skillrow{
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.skills{
+
+}
+.contact{
+	margin:20px;
+}
+.bottom_container{
+	background-color: #66bfbf;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+
+.headimg{
+	margin:30px auto;
+}
+
+
+
+
+.footerlink{
+	margin: 10px 20px;
+	transition: transform .5s;
+}
+.footerlink:hover{
+	transform: scale(1.5);
+}
+
+
+.copyright{
+	font-size: 0.85rem;
+	color: #EAF6F6;
+	padding-bottom: 0;
+}
+
+
+
+.butn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
